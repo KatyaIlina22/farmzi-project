@@ -1,0 +1,18 @@
+.button {
+  border-radius: 8px;
+  padding-inline: 40px;
+  padding-block: 16px;
+  background: #9333ea;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 120%;
+  letter-spacing: 0.5px;
+  color: #fff;
+  text-align: center;
+}
+
+.button--min {
+  font-size: 16px;
+  padding-inline: 28px;
+  padding-block: 12px;
+}

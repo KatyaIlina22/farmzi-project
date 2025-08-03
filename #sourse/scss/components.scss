@@ -1,0 +1,89 @@
+
+.title{
+    font-family: "Playfair Display", sans-serif;
+font-weight: 400;
+font-size: 48px;
+line-height: 120%;
+}
+.title--large{
+  font-weight: 700;
+
+}
+@media(max-width:991.98px){
+    .title{
+        font-size: 42px;
+    }
+}
+@media(max-width:767.98px){
+    .title{
+        font-size: 30px;
+        justify-self: center;
+  text-align: center;;
+    }
+}
+.title--white{
+    color: #fff;
+}
+.title--green{
+
+color: #177165;
+}
+.title--big{
+    font-size: 60px;
+}
+.lable{
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 172%;
+ 
+}
+@media(max-width:767.98px){
+.lable{justify-self: center;
+  text-align: center;}
+}
+.lable--white{
+    color: #a4d6cf;
+    background: url("../../img/line_white.svg")left no-repeat;
+    padding-left: 50px;
+   
+}
+.lable--light{
+    color: #a4d6cf;
+     background: url("../../img/line__light.svg")left no-repeat;
+    padding-left: 50px;
+}
+.lable--grey{
+    color: #777;
+     background: url("../../img/line_grey.svg")left no-repeat;
+    padding-left: 50px;
+}
+.lable--big{
+font-size: 18px;
+line-height: 162%;
+
+}
+.lable--min{
+    font-size: 15px;
+    line-height: 173%;
+}
+a.button {
+    
+  color: #177165;
+  background-color: #fff;
+  padding-right: 39px;
+  padding-left: 59px;
+  padding-block: 14px;
+ & span{
+     background: url("../../img/+.svg")right no-repeat;
+     padding-right: 20px;
+ }
+ &:hover{
+    background-color: #a4d6cf;
+ }
+}
+
+a.button-green{
+    
+    border:  2px solid #177165;
+    background-color: transparent;
+}
